@@ -49,5 +49,10 @@ namespace WPFWeatherApp.ViewModel.Helpers
 
             return currentConditions;
         }
+
+        internal static Task GetCurrentConditionsAsync()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
